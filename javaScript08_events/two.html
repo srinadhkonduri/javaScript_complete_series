@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>srinadh</h1>
+    <button id="stop">stop</button>
+</body>
+<script>
+    setTimeout(function(){
+        document.querySelector('h1').innerHTML = "srinadh handsome"
+        document.querySelector('button').addEventListener('click',function(event){
+            console.log("clicked");
+        })
+        console.log("srinadh clicked")
+    }, 1000);
+    
+</script>
+</html>

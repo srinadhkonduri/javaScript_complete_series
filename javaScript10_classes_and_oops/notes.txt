@@ -1,0 +1,7 @@
+oop has mainy four pillars in it
+***********object oriented programming*********
+
+abstraction
+inheritance
+polymorphism
+encapsulation
